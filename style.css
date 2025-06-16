@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+header {
+  background: #111827;
+  padding: 1rem 2rem;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #a5f3fc;
+}
+.logo {
+  width: 120px;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+}
+.hero button {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: #38bdf8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chatbot {
+  padding: 2rem;
+  text-align: center;
+}
+#chatbox {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  min-height: 100px;
+}
+input[type="text"] {
+  padding: 0.6rem;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

@@ -1,34 +1,49 @@
+smartai/
+├── index.html
+├── style.css
+├── logo.svg
+└── ai-bot.js (optional)
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Simple Project</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartAI Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
   <header>
-    <h1>Welcome to My project</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <img src="logo.svg" alt="SmartAI Logo" class="logo"/>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>About This Project</h2>
-      <p>This is a simple HTML and CSS project template you can customize as you like.</p>
+    <section class="hero">
+      <h1>Empowering the Future with AI</h1>
+      <p>Your trusted partner in AI-driven solutions.</p>
+      <button>Explore Solutions</button>
+    </section>
+
+    <section class="chatbot">
+      <h2>Chat with SmartAI Bot 🤖</h2>
+      <div id="chatbox">
+        <p class="bot">Hello! How can I assist you today?</p>
+      </div>
+      <input type="text" placeholder="Type your message..."/>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Website. All rights reserved.</p>
+    <p>© 2025 SmartAI Solutions. All rights reserved.</p>
   </footer>
 
+  <script src="ai-bot.js"></script>
 </body>
 </html>
+charset="UTF=8>" the code
